@@ -1,5 +1,5 @@
 
-#Tasks for the course
+# Tasks for the course
 
 1. Switf 4 (iOS11) course - Stanford University podcast - **1 lesson a week**
 https://itunes.apple.com/ie/podcast/developing-ios-11-apps-with-swift/id1315130780?mt=2
@@ -11,9 +11,9 @@ https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift
 4. Long-term goal: Write my own App using Swift (__4-5 month from now__)
 
 
-##STANFORD course
+## STANFORD course
 
-###Lecture 1: Introduction to iOS 11, Xcode 9 and Swift 4
+### Lecture 1: Introduction to iOS 11, Xcode 9 and Swift 4
 Task - build Concentration game
 
 > Highlights: 
@@ -22,8 +22,7 @@ Task - build Concentration game
 
 > Issues:
 - Be careful when connecting UI components with the code, e.g. even if code (reference) is removed after connecting component, it will still be present on the component Sent Event
-Question: why would not they just remove it from the sent event if connecting piece of code was deleted?
-
+    - Question: why removing code will not remove e.g. UI buttons Sent Event?
 
 
 
