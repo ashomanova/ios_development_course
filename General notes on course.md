@@ -19,10 +19,16 @@ Task - build Concentration game
 > Highlights: 
 - when passing parameters in a method func() it should have `EXTERNAL_NAME INTERNAL_NAME: data type`
 - syntax, no need in declaring a data type when creaing a variable, no need in using semicolons
+- Command+rename will rename everywhere in the project 
 
 > Issues:
 - Be careful when connecting UI components with the code, e.g. even if code (reference) is removed after connecting component, it will still be present on the component Sent Event
     - Question: why removing code will not remove e.g. UI buttons Sent Event?
 
 
+### Lecture 2: Model View Controller (MVD)
 
+>Notes:
+- `Model` is essentially what an application is (e.g. Concentration App)
+- `Controller` is about how is `Model` is presented in the UI
+- `View` is `Controller's` components, e.g. UIButtons, UILabel etc.
