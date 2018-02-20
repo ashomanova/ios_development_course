@@ -28,7 +28,20 @@ Task - build Concentration game
 
 ### Lecture 2: Model View Controller (MVD)
 
->Notes:
+> Highlights: 
 - `Model` is essentially what an application is (e.g. Concentration App)
-- `Controller` is about how is `Model` is presented in the UI
-- `View` is `Controller's` components, e.g. UIButtons, UILabel etc.
+- `Controller` is about how is `Model` is presented in the UI (UI Logic)
+- `View` is generic `Controller's` components, e.g. UIButtons, UILabel etc.
+
+> Communications Pathways: 
+- **Controller** can speak to the **Model** & **View**
+- **Model** should ~~never speak~~ to **View** since Model is UI independant, where is View is essentially a UI
+- View talks to the Controller 
+- Model talks to the Controller (Notiificaiton & KVO - later stages of the course)
+
+
+> Important points - Rules:
+- `struct` has no inheritance 
+- `struct` is a value type, not a reference type 
+- `class` is a reference type, 
+ 
