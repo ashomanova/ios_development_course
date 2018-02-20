@@ -17,13 +17,15 @@ https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift
 Task - build Concentration game
 
 > Highlights: 
-- when passing parameters in a method func() it should have `EXTERNAL_NAME INTERNAL_NAME: data type`
+- when passing parameters in a method func() it should have `EXTERNAL_NAME INTERNAL_NAME: data type`, e.g. `withEmoji` is an external name in this case & `emoji` is an internal name
+```func flipCard(withEmoji emoji: String, on button: UIButton)```
 - syntax, no need in declaring a data type when creaing a variable, no need in using semicolons
 - Command+rename will rename everywhere in the project 
 
 > Issues:
 - Be careful when connecting UI components with the code, e.g. even if code (reference) is removed after connecting component, it will still be present on the component Sent Event
     - Question: why removing code will not remove e.g. UI buttons Sent Event?
+    - Use of external & internal names? to make code more readable?
 
 
 ### Lecture 2: Model View Controller (MVD)
@@ -39,9 +41,19 @@ Task - build Concentration game
 - View talks to the Controller 
 - Model talks to the Controller (Notiificaiton & KVO - later stages of the course)
 
-
 > Important points - Rules:
 - `struct` has no inheritance 
 - `struct` is a value type, not a reference type 
-- `class` is a reference type, 
+- `class` is a reference type
+- `init` method would not usually have external & internal names as parameter, `self.identifier` can be used here to avoid using different names
+- `for loop` syntax is quite different from other languages
+```
+for identifier in 1...numberOfPairsOfCards{
+        let card = Card(identifier: identifier)
+        cards.append(card)
+        cards.append(card)
+    }
+```
+- `_` means variable has never been used
+
  
