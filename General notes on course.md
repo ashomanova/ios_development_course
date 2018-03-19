@@ -6,9 +6,12 @@ https://itunes.apple.com/ie/podcast/developing-ios-11-apps-with-swift/id13151307
 2. Swift Programming Language book - **1/2 chapters a week**
 https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
 
-3. Create repository in github to push latest tasks/projects 
+3. Swift Programming Syntax using udacity course -  **1 lesson a week**
+https://eu.udacity.com/course/learn-swift-programming-syntax--ud902
 
-4. Long-term goal: Write my own App using Swift (__4-5 month from now__)
+4. Create repository in github to push latest tasks/projects 
+
+5. Long-term goal: Write my own App using Swift (__4-5 month from now__)
 
 
 ## STANFORD course
@@ -42,9 +45,8 @@ Task - build Concentration game
 - Model talks to the Controller (Notiificaiton & KVO - later stages of the course)
 
 > Important points - Rules:
-- `struct` has no inheritance 
-- `struct` is a value type, not a reference type 
-- `class` is a reference type
+- `struct` has no inheritance, is a value type, not a reference type (makes a copy)
+- `class` is a reference type (creates a reference to that class, changes made in the class would change it in the references as well)
 - `init` method would not usually have external & internal names as parameter, `self.identifier` can be used here to avoid using different names
 - `for loop` syntax is quite different from other languages
 ```
