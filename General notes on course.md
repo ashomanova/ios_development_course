@@ -57,5 +57,19 @@ for identifier in 1...numberOfPairsOfCards{
     }
 ```
 - `_` means variable has never been used
+- `lazy` means it doesn't get initialised until someone tries to use it, has the following resrtiction - cannot have `didSet`
+- `Dictionary` is equivalent to hashmaps
+`Dictionary<Int, String>` is the same as `[Int: String]`
+- Simpler syntax with one line of code can be used for optionals like this `return emoji[card.identifier] ?? "?"` instead of
+```        
+if emoji[card.identifier] != nil {
+            //make sure it's not nil
+          return emoji[card.identifier]!
+        }else{
+            return "?"
+        }
+```
+- back to back `if` statements can be separated by a `,`
+
 
  
