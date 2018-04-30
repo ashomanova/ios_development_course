@@ -80,13 +80,17 @@ if emoji[card.identifier] != nil {
     - Pin the edges of the whole stack by using `Control + Drag` into Up, Left, Rigth & Bottom to spread cards equally
 - Global function `stride` that lets you to move from one value to another using  2 types:
     - `stride(from:to:by)` excluding upper bound parameter
-    ```for i in stride(from: 0, to: 10, by: 1) {
+    ```
+    for i in stride(from: 0, to: 10, by: 1) {
             print(i) // prints from 0 to 9
-    }```
+    }
+    ```
     - `stride(from:through:by)` includes upper bound parameter
-        ```for i in stride(from: 0, through: 10, by: 1) {
+        ```
+        for i in stride(from: 0, through: 10, by: 1) {
             print(i) // prints from 0 to 10
-    }```
+    }
+    ```
     See this [link](https://medium.com/@abhimuralidharan/stride-in-swift-to-loop-over-a-range-b03658468c54) for more details
 - `Tuple` is essentially a data structure, as a mini `struct`, value types (makes a copy)
 
