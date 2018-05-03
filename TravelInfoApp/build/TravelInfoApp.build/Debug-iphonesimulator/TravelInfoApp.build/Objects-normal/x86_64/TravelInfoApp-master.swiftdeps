@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "801be9eaadd5908ff69d3dbc0d260953"
+build_time: [1525360008, 980730000]
+inputs:
+  "/Users/ashomanova/code_my_projects/ios_development/ios_development_course/TravelInfoApp/TravelInfoApp/ViewController.swift": [1525360008, 0]
+  "/Users/ashomanova/code_my_projects/ios_development/ios_development_course/TravelInfoApp/TravelInfoApp/AppDelegate.swift": [1525341597, 0]

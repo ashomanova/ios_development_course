@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A4A391408DCAB1A18701A15EC88830A1817225D8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A4A391408DCAB1A18701A15EC88830A1817225D8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DB4DB317-DC45-4735-9600-48FF4BD5B1E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A4A391408DCAB1A18701A15EC88830A1817225D8" : "ios_development_course\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TravelInfoApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TravelInfoApp\/TravelInfoApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:ashomanova\/ios_development_course.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4A391408DCAB1A18701A15EC88830A1817225D8"
+    }
+  ]
+}
